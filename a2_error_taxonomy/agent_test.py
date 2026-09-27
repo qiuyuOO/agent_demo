@@ -18,6 +18,8 @@ from a2_error_taxonomy.llm_types import (TextPart, ToolCallPart,
                                          ToolResultPart, user_message)
 from a2_error_taxonomy.loop import run
 from a2_error_taxonomy.tool_types import Session
+from a2_error_taxonomy.llm_types import user_message
+from a2_error_taxonomy.loop import run
 
 logging.basicConfig(level=logging.WARNING,      # 压低日志，让统计表是主角
                     format="%(asctime)s | %(levelname)s | %(message)s")

@@ -4,7 +4,7 @@ import logging
 import time
 from pathlib import Path
 from dataclasses import asdict, replace
-from context import compress
+
 
 from a2_error_taxonomy.adapters.registry import get_adapter_class
 from a2_error_taxonomy.error_type import ContextLengthExceeded
